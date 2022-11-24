@@ -27,7 +27,7 @@ function scoresAverage(moviesArray) {
         return accumalator + movie.score;
             },0);
         let scoreAverage = sumMovieScore/moviesArray.length;
-        return scoreAverage.toFixed(2);
+        return scoreAverage;
     }
 }
 
